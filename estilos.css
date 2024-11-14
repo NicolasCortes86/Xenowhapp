@@ -1,0 +1,342 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4b5b5;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-img {
+    filter: brightness(50%);
+    font-family: 'Roboto', sans-serif;
+
+
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+
+.formulario {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 30%;
+}
+.recuerda {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    text-align: left;
+    color: #e4b5b5;
+}
+
+
+.piepag {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b88383;
+    margin-top: 5%;
+}
+
+
+.navbar-expand-lg {
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    display: flex;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+.conoce {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.col {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0%;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.fondo-gris {
+    background-color: #e4b5b5;
+    color: #fff;
+}
+
+.octubre {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 200px;
+    text-align: right;
+}
+
+#banner {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./Fotos/Banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerTop {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30%;
+    padding-bottom: 10%;
+    padding-left: 600px;
+    margin-right: 10%;
+    text-align: right;
+    color:#e4b5b5;
+} 
+
+#banner2 {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./Fotos/Banner2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;/* Ajusta la altura según tus necesidades */
+  cursor: pointer; /* Cambia el cursor para indicar que es clicable */
+}
+
+#bannerJeans {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(.//Fotos/BANNER\ Jeans.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
+#bannerPantalon {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(.//Fotos/BannerPantalones.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
+#bannerRemeras {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(.//Fotos/BannerRemeras.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
+#bannerShorts {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(.//Fotos/BannerShorts.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  
+}
+
+.bannerMid {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30%;
+  padding-bottom: 10%;
+  padding-left: 600px;
+  margin-right: 10%;
+  text-align: right;
+  color:#e4b5b5;
+} 
+
+
+.Categorias {
+      font-family: 'Roboto', sans-serif;
+    padding-top: 30%;
+    padding-bottom: 10%;
+    padding-left: 600px;
+    margin-right: 10%;
+    text-align: right;
+    color:#e4b5b5;
+}
+
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .info-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f8f9fa;
+  }
+  
+  .info-cards .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-cards .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .info-cards .card i {
+    font-size: 40px;
+    color: #3498db;
+    margin-bottom: 15px;
+  }
+  
+  .info-cards .card h3 {
+    margin-bottom: 10px;
+    color: #333;
+
+  }
+  
+  .info-cards .card p {
+    color: #666;
+  }
+
+  .Iconos .info-cards {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4b5b5;
+    margin-top: 5%;
+  }
+
+  /*Estilos de tienda*/
+
+.container-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:20px;
+  background-color: #e4b5b5;
+  
+}
+
+.item{
+  border-radius: 50px 0px 50px 0px;
+}
+
+.item{
+  box-shadow: 0 10px 20px rgba(0,0,0, 0.20);
+}
+
+.info-product{
+  padding: 15px 30px;
+}
+
+.item img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50px 0px 50px 0px;
+}
