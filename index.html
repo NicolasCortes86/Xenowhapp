@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg" style="background-color: #f3aeac;" >
             
             <div class="container-fluid">
-              <a class="navbar-brand text-white icon" href="index1.html">
+              <a class="navbar-brand text-white icon" href="index.html">
                 <!-- superior izquierdo inicio-->
                 <img src="./Fotos/Logo xenoWhap.png" alt="Bootstrap" width="100" height="50"> XenoWhapp  
             </a>
@@ -52,8 +52,28 @@
           </nav>
     </header>
 
-    <section id="banner">
-      <div class="bannerTop">
+    <section id="carousel">
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="Banner">
+            <img src="./Fotos/Banner.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" id="Banner">
+            <img src="./Fotos/Banner2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" id="Banner">
+            <img src="./Fotos/Banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
     <section id="Categorias"> <!-- ex novedades-->
@@ -149,34 +169,62 @@
 
     
     <section id="Contacto">
-       <h5>Contacto</h5>
-      <center>Anotate como orador para dar una <a href="">charla ignite.</a> Cuentanos de que quieres hablar!</center>
-      <br>
-      <div class="formulario">
-      <div class="row g-3">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" id="correo" placeholder="Correo" name="correo">
-        </div>
-        <p></p>
-      </div>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Recuerda incluir un titulo para tu charla" id="floatingTextarea2" style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Mensaje...</label>
-        <br>
-      </div>
+      <p></p>
+      <h4>Contacto</h4>
+      <p></p>
+      <!-- modify this form HTML and place wherever you want your form -->
+<form class="formulario"
+action="https://formspree.io/f/mgveybbv"
+method="POST"
+>
+<div class="row g-3">
+  <div class="col">
+    <input type="nombre" name="nombre" class="form-control" placeholder="Nombre" aria-label="First name">
+  </div>
+  <div class="col">
+    <input type="apellido" name="apellido" class="form-control" placeholder="Apellido" aria-label="Last name">
+  </div>
+  <div class="mb-3">
+    <input type="email" class="form-control" id="correo" placeholder="Correo" name="correo">
+  </div>
+  <p></p>
+</div>
+<div class="form-floating">
+  <textarea name="message" class="form-control" placeholder="Recuerda incluir un titulo para tu charla" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Mensaje...</label>
+  <br>
+</div>
 
-      <div class="d-grid gap-2 max-auto">
-        <button class="btn btn-success" type="button">Enviar</button>
-        
-      </div>
-      </div>
-    </section>
+<div class="d-grid gap-2 max-auto">
+  <button class="btn btn-success" type="submit">Enviar</button>
+  
+</div>
+
+<br>
+<br>
+
+</form>
+
+
+<section class="reviews">
+  <div class="review">
+  <h3>Juan Pérez</h3>
+  <p>"Excelente calidad y servicio. Estoy muy contento con mi compra. ¡Volveré a comprar sin dudas!"</p>
+  <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"><i class="fa-regular fa-star"></i></i></p>
+</div>
+<div class="review">
+  <h3>Ana García</h3>
+  <p>"Muy buena atención y rapidez en la entrega. Los productos superaron mis expectativas."</p>
+  <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+</div>
+<div class="review">
+  <h3>Lucas Fernández</h3>
+  <p>"Gran variedad de ropa a precios muy accesibles. Recomiendo totalmente este lugar."</p>
+  <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+</div>
+</section>
+      
+    
  
     <footer class="navbar navbar-expand-lg piepag">
       <div class="container mt-2 ">
@@ -216,6 +264,8 @@
           </div>
       
       </div>
+   
+ 
 
     </footer>
 
