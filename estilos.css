@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e4b5b5;
+    background-color: #f3aeac;
 }
 
 h5 {
@@ -34,31 +34,40 @@ h3 {
     font-family: 'Roboto', sans-serif;
     padding: 0 30%;
 }
-.recuerda {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.75rem;
-    text-align: left;
-    color: #e4b5b5;
+
+.header {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3aeac;
+  margin-top: 5%;
+  text-align: center;
 }
-
-
-.piepag {
-    font-family: 'Roboto', sans-serif;
-    background-color: #b88383;
-    margin-top: 5%;
-}
-
 
 .navbar-expand-lg {
     font-family: 'Roboto', sans-serif;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    background-color: #f3aeac;
 }
 
 .navbar {
     font-family: 'Roboto', sans-serif;
     position: relative;
     display: flex;
+}
+/* Oculta el ícono hamburguesa */
+.navbar-toggler {
+  display: none !important;
+}
+
+.container-fluid {
+  background-color: #f3aeac;
+}
+
+.piepag {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e4b5b5;
+  margin-top: 5%;
+  text-align: center;
 }
 
 .footer {
@@ -128,7 +137,7 @@ p {
   background-image: url(./Fotos/Banner2.jpg);
   background-size: cover;
   background-position: center;
-  height: 650px;/* Ajusta la altura según tus necesidades */
+  height: 550px;/* Ajusta la altura según tus necesidades */
   cursor: pointer; /* Cambia el cursor para indicar que es clicable */
 } 
 
@@ -358,6 +367,8 @@ p {
   gap: 20px;
   padding: 40px;
   background-color: #b88383;
+  justify-content: space-around;
+
 }
 
 /* Estilos para cada reseña */
@@ -384,4 +395,53 @@ p {
 
 .review:hover {
   transform: translateY(-10px);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 400px; /* Ajustar altura para que sea uniforme */
+}
+
+/* Ajustar las imágenes del carousel para que tengan el mismo tamaño */
+.carousel-img {
+  height: 600px; /* Ajusta esta altura según tus necesidades */
+  object-fit: cover; /* Recorta la imagen para llenar el contenedor sin deformarla */
+  width: 100%;
+}
+
+/* Para pantallas más pequeñas, ajustar la altura 
+@media (min-width: 1550px) {
+  .carousel-img {
+        object-fit: cover;
+  }
+  #banner2 {
+    height: 300px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 300px;
+  }
+  #banner2 {
+    height: 300px;
+  }
+  .container-fluid {
+    background-color: #f3aeac;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-img-top {
+    height: 250px; /* Reducir altura en pantallas pequeñas */
+}
+}
+
+@media (max-width: 576px) {
+  .carousel-img {
+    height: 200px;
+  }
+  #banner2 {
+    height: 300px;
+  }
 }
