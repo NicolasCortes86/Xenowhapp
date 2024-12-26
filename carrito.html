@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 
+
+
     <title>Trabajo Integrador</title>
 </head>
 <body>
@@ -46,173 +48,35 @@
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  
-                  <a href="carrito.html" class="fa fa-shopping-cart" aria-hidden="true" onclick="handleCart()" id="carrito">
-                    <span class="count">0</span>
-                </a>
-                  
+                  </button>
+                  <a href="Pantalones.html">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"><p></p></i>
+                  </a>
+                  </button>
                 
                   
                 </div>
             </div>  
           </nav>
     </header>
+<main>
+<h1> Carrito de compras</h1>
 
-    <section id="carousel">
-      
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" >
-            <img src="./Fotos/Banner.png" class="d-block w-100 carousel-img" alt="...">
-          </div>
-          <div class="carousel-item" >
-            <img src="./Fotos/Banner2.png" class="d-block w-100 carousel-img" alt="...">
-          </div>
-          <div class="carousel-item" id="Banner">
-            <img src="./Fotos/Banner2.jpg" class="d-block w-100 carousel-img" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <section id="Categorias"> <!-- ex novedades-->
-    <div class="container mt-4 mb-4">
-        <h5>Categorias</h5>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          
-          <div class="card h-100">
-            <a href="jeans.html" class="card">
-            <img src="./Fotos/Jeans/Wide leg Azul/1.PNG"  height="500px" class="card-img-top" alt="..."></a>
-            <div class="card-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus obcaecati rem tempora illo molestias, quidem quis tempore soluta repellat! Reiciendis ex iure ducimus repudiandae cum. Ea officiis expedita praesentium?</p>
 
-              <h5>JEANS</h5>
+</main>
 
-            </div>
-         
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <a href="Remeras.html" class="card">
-            <img src="./Fotos/Remeras/Remeras con strass/1.PNG" height="500" class="card-img-top" alt="..."></a>
-            <div class="card-body">
-
-              <h5 class="card-title">REMERAS</h5>
-             
-            </div>
-
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <a href="Short.html" class="card">
-              <img src="./Fotos/Shorts/Bermuda Lali gris/1.PNG" height="500" class="card-img-top" alt="..."></a>
-            <div class="card-body">
-
-              <h5 class="card-title">BERMUDAS</h5>
-
-            </div>
-
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <a href="Pantalones.html" class="card">
-              <img src="./Fotos/Pantalones/Boot cut negro elastizado/1.PNG" height="500" class="card-img-top" alt="..."></a>
-            <div class="card-body">
-
-              <h5 class="card-title">PANTALONES</h5>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-      <!--playa -->
-      <section id="banner2">
-        <div class="bannerMid">
-          <script>
-            document.getElementById('banner2').addEventListener('click', function() {
-              window.location.href = 'Sale.html';
-            });
-          </script>
-          
-        </div>
-      </section>
-
-       
-    <section id="Iconos">
-
-      <section class="info-cards">
-        <div class="card">
-          <i class="fas fa-shipping-fast"></i>
-          <h3><center>Envíos</center></h3>
-          <p>Realizamos envíos a todo el país de forma rápida y segura.</p>
-        </div>
-        <div class="card">
-          <i class="fas fa-credit-card"></i>
-          <h3><center>Pagos</center></h3>
-          <p>Aceptamos múltiples métodos de pago para tu comodidad.</p>
-        </div>
-        <div class="card">
-          <i class="fa fa-mobile"></i>
-          <h3><center>WhatsApp Difusión</center></h3>
-          <p>Únete a nuestro grupo de WhatsApp para recibir nuestras novedades.</p>
-        </div>
-      </section>
-      
-    </section> 
-
+<section class="tableProduct" id="itemProducts">
+    <h2>Seccion de Productos</h2>
     
-    <section id="Contacto">
-      <p></p>
-      <h4>Contacto</h4>
-      <p></p>
-      <!-- modify this form HTML and place wherever you want your form -->
-<form class="formulario"
-action="https://formspree.io/f/mgveybbv"
-method="POST"
->
-<div class="row g-3">
-  <div class="col">
-    <input type="nombre" name="nombre" class="form-control" placeholder="Nombre" aria-label="First name">
-  </div>
-  <div class="col">
-    <input type="apellido" name="apellido" class="form-control" placeholder="Apellido" aria-label="Last name">
-  </div>
-  <div class="mb-3">
-    <input type="email" class="form-control" id="correo" placeholder="Correo" name="correo">
-  </div>
-  <p></p>
-</div>
-<div class="form-floating">
-  <textarea name="message" class="form-control" placeholder="Recuerda incluir un titulo para tu charla" id="floatingTextarea2" style="height: 100px"></textarea>
-  <label for="floatingTextarea2">Mensaje...</label>
+</section>
+<section class="tableProduct" id="itemProducts">
+
+  <button onclick="limpiarCarrito()"> Limpiar Carrito</button>
   <br>
-</div>
-
-<div class="d-grid gap-2 max-auto">
-  <button class="btn btn-success" type="submit">Enviar</button>
-  
-</div>
-
-<br>
-<br>
-
-</form>
-
+</section>
+    
 <h4 style="background-color: #b88383 ;">Reviews</h4>
-
 <section class="reviews">
   <div class="review">
   <h3>Juan Pérez</h3>
